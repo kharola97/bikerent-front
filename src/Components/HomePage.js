@@ -7,7 +7,7 @@ function Home() {
   const bikes = "https://bikerentalsingoa.in/upload/1667824178Motorcycle%20Rent%20in%20Goa.jpg";
   
   const handleExplore = () => {
-    navigate("/partner");
+    navigate("/aboutus");
   };
 
   return (

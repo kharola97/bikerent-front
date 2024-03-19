@@ -78,7 +78,7 @@ function Login() {
             </a>
           </div>
           <div>
-            Dont have an account? <Link className='text-blue-600' to='/register'>Register</Link>
+            Dont have an account? <Link className='text-blue-600' to='/adminregister'>Register</Link>
           </div>
           <button
             type="submit"

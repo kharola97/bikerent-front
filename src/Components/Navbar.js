@@ -8,7 +8,7 @@ function Navbar() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    navigate("/login");
+    navigate("/clientlogin");
   };
 
   const handleHome = (e)=>{
@@ -53,7 +53,7 @@ function Navbar() {
     </div>
     {/* Render these sections outside of the conditional rendering */}
     <div className="md:flex w-full hidden gap-4">
-      <h2 className="text-lg cursor-pointer uppercase hover:bg-indigo-500 hover:text-white py-2 px-4 rounded-full" onClick={handleHome}>Home</h2>
+      <h2 className="text-lg cursor-pointer uppercase transition-colors hover:bg-indigo-500 hover:text-white py-2 px-4 rounded-full" onClick={handleHome}>Home</h2>
       <h2 className="text-lg cursor-pointer uppercase hover:bg-indigo-500 hover:text-white py-2 px-4 rounded-full" onClick={handleAbout}>About us</h2>
       <h2 className="text-lg cursor-pointer uppercase hover:bg-indigo-500 hover:text-white py-2 px-4 rounded-full" onClick={handleContact}>Contact us</h2>
       <button className="text-lg font-semibold uppercase py-2 px-6 rounded-full border border-indigo-700 hover:bg-indigo-500 hover:text-white" onClick={handleLogin}>

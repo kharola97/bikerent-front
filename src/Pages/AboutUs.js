@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export const AboutUs = () => {
   return (
@@ -44,23 +45,34 @@ export const AboutUs = () => {
         </ul>
       </div> 
     <div className=' container m-10'>
-      <h1 className='text-6xl m-3'>What our partners have to say about us?</h1>
-      <div className=' w-full flex flex-wrap gap-4'>
-      <div className='w-96 p-6 rounded-full shadow-2xl  shadow-slate-950 bg-stone-100'>
-    <p className="text-2xl mt-2 text-indigo-500 font-bold text-center">Mr. Shop owner</p>
-    <h2>"Our bike rental shop is thrilled with the seamless experience offered by the web app. It's incredibly user-friendly, simplifying reservations and payment processing. Managing our inventory has never been easier, allowing us to focus more on delivering excellent service. Kudos to the developers for creating such an amazing tool!"</h2>
+      <h1 className='text-6xl text-center m-5  text-indigo-700'>What our partners have to say about us?</h1>
+      <div className=' w-full flex justify-center flex-wrap gap-4'>
+      <div className='w-96 p-6  shadow-2xl  shadow-slate-950 bg-stone-100'>
+    <p className="text-2xl m-2  text-indigo-500 font-bold text-center">Mr. Shop owner</p>
+    <h2 className='m-3'>"Our bike rental shop is thrilled with the seamless experience offered by the web app. It's incredibly user-friendly, simplifying reservations and payment processing. Managing our inventory has never been easier, allowing us to focus more on delivering excellent service. Kudos to the developers for creating such an amazing tool!"</h2>
+    <h1 className='m-3 text-2xl'>Rating :-</h1>
     
       </div> 
-      <div className='w-96 p-6 rounded-full shadow-2xl shadow-slate-950 bg-stone-100'>
-    <p className="text-2xl mt-2 text-indigo-500 font-bold text-center">Mr. Shop owner</p>
-      <h3>"Since integrating the web app into our operations, our bike rental shop has seen a remarkable boost in efficiency. From reservation management to inventory control, every aspect is streamlined. Real-time updates and customizable features make it a perfect fit for our needs. Highly recommended for any bike rental business!"</h3>
+      <div className='w-96 p-6  shadow-2xl shadow-slate-950 bg-stone-100'>
+    <p className="text-2xl m-2 text-indigo-500 font-bold text-center">Mr. Shop owner</p>
+      <h3 className='m-3'>"Since integrating the web app into our operations, our bike rental shop has seen a remarkable boost in efficiency. From reservation management to inventory control, every aspect is streamlined. Real-time updates and customizable features make it a perfect fit for our needs. Highly recommended for any bike rental business!"</h3>
+      <h1 className='m-3 text-2xl'>Rating :-</h1>
       </div> 
-      <div className='w-96 p-6 rounded-full  shadow-2xl shadow-blue-950 bg-stone-100'>
-    <p className="text-2xl mt-2 text-indigo-500 font-bold text-center">Mr. Shop owner</p>
-    <h4>"This web app has revolutionized how we operate our bike rental shop. With comprehensive analytics and easy report generation, decision-making has become data-driven and efficient. The responsive customer support team ensures any issues are promptly addressed. Thanks to this innovative tool, our business is thriving like never before!"</h4>
+      <div className='w-96 p-6   shadow-2xl shadow-blue-950 bg-stone-100'>
+    <p className="text-2xl m-2 text-indigo-500 font-bold text-center">Mr. Shop owner</p>
+    <h4 className='m-3'>"This web app has revolutionized how we operate our bike rental shop. With comprehensive analytics and easy report generation, decision-making has become data-driven and efficient. The responsive customer support team ensures any issues are promptly addressed. Thanks to this innovative tool, our business is thriving like never before!"</h4>
+    <h1 className='m-3 text-2xl'>Rating :-</h1>
     
       </div> 
     </div>
+    </div>
+  
+    <p className='text-6xl m-3 block w-full text-center  font-light'>Want to Rent your bikes with us and become a partner?</p>
+    
+     
+    <div className='flex flex-wrap justify-around gap-4'>
+      <p className='text-4xl mt-3  font-light'>Create your account now</p>
+      <Link className="px-8 py-4 bg-gray-800 text-white font-semibold uppercase tracking-wider rounded-full shadow-md transition duration-300 hover:bg-indigo-500 hover:text-white transform hover:scale-105 focus:outline-none focus:ring focus:ring-indigo-300" to='/adminregister'>Register</Link>
     </div>
    
     </div>

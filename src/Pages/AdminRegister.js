@@ -108,7 +108,7 @@ function Register() {
             Register
           </button>
           <div className='text-center '>
-            Already have an account? <Link className='text-blue-600' to='/Login'>Login</Link>
+            Already have an account? <Link className='text-blue-600' to='/adminLogin'>Login</Link>
           </div>
         </form>
       </div>
